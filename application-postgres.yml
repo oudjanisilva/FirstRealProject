@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://cyp-docker-01:5532/hotfix1_current
-    jdbc-url: ${spring.datasource.url} # support for providers portal
-    username: nexus
-    password: nexus@pgTest01
+    url: jdbc:postgresql://ken-oudjani-silva:5532/hotfix1_current
+    jdbc-url: ${spring.datasource.url} # used for support
+    username: test
+    password: test
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
